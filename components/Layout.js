@@ -1,4 +1,9 @@
 import Head from "next/head";
+import Link from "next/Link"
+import { Icon } from "@iconify/react";
+import githubIcon from "@iconify/icons-simple-icons/github";
+import linkedinIcon from "@iconify/icons-simple-icons/linkedin";
+import twitterIcon from "@iconify/icons-simple-icons/twitter";
 
 function Layout({ children, pageTitle }) {
   return (
@@ -9,11 +14,20 @@ function Layout({ children, pageTitle }) {
       </Head>
       <div>
         <header>
-          <div>Overclocked Overthoughts</div>
-          <nav>Blog</nav>
+          <Link href="/">Overclocked Overthoughts</Link>
         </header>
         <main>{children}</main>
-        <footer>All content copyright me</footer>
+        <footer>
+          <nav>
+            <a href="https://github.com/JamesCalingo">
+              <Icon icon={githubIcon} />
+            </a>
+            <a href="https://linkedin.com/in/james-calingo">
+              <Icon icon={linkedinIcon} />
+            </a>
+          </nav>
+          All content copyright me
+          </footer>
       </div>
     </>
   );

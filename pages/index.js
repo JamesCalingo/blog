@@ -6,7 +6,8 @@ import Link from "next/link";
 const Index = ({ posts }) => {
   return (
     <Layout pageTitle="Overclocked Overthoughts">
-      <h1>The STuff</h1>
+      <h1>James Calingo</h1>
+      <p>My thoughts, out loud.</p>
       <PostsList posts={posts} />
     </Layout>
   );
@@ -26,9 +27,9 @@ const PostsList = ({ posts }) => {
             <li key={slug}>
               <Link href={`/blog/${slug}`}>
                 <a href="">
-                  <h4>{title}</h4>
+                  <h2>{title}</h2>
                   <p>{description}</p>
-                  <h5>{date}</h5>
+                  <p className="italic">{date}</p>
                 </a>
               </Link>
             </li>

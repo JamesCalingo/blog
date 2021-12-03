@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { postSlugs, postForSlug } from "../../posts";
 import Layout from "../../components/Layout";
+import CodeBlock from '../../components/CodeBlock'
 
 function Post({ frontmatter, body }) {
   if (!frontmatter) return <></>;
@@ -11,7 +12,7 @@ function Post({ frontmatter, body }) {
         <article>
           <h1>{frontmatter.title}</h1>
           <p className="italic">{frontmatter.date}</p>
-          <ReactMarkdown children={body}></ReactMarkdown>
+          <ReactMarkdown children={body} renderers={{code: CodeBlock}}/>
         </article>
       </div>
     </Layout>

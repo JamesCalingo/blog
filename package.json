@@ -8,8 +8,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconify/icons-simple-icons": "^1.1.53",
+    "@iconify/react": "^3.1.0",
     "gray-matter": "^4.0.3",
     "grey-matter": "^0.0.0",
+    "highlight.js": "^11.3.1",
     "next": "12.0.2",
     "raw-loader": "^4.0.2",
     "react": "17.0.2",
