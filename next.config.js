@@ -1,3 +1,5 @@
-module.exports = {
-  reactStrictMode: true,
+const nextConfig = {
+  target: "serverless"
 }
+
+module.exports =nextConfig
