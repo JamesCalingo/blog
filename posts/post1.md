@@ -3,8 +3,11 @@
 title: "Testing 1, 2, 3"
 description: "A test!"
 date: 3 December 2021
+published: true
 
 ---
+
+*AUTHOR'S NOTE: This was written as a test for content and formatting blog posts. As such, it's super random and not very...useful (for lack of a better term), but I'll leave it here so you can see a bit of "behind the scenes" stuff.*
 
 This has been in the works for WAY too long.
 

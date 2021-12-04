@@ -10,7 +10,8 @@ function Post({ frontmatter, body }) {
     <Layout pageTitle={frontmatter.title}>
       <div>
         <article>
-          <h1>{frontmatter.title}</h1>
+          <h1 className="title">{frontmatter.title}</h1>
+          <h2 className="description">{frontmatter.description}</h2>
           <p className="italic">{frontmatter.date}</p>
           <ReactMarkdown>{body}</ReactMarkdown>
         </article>

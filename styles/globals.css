@@ -1,12 +1,7 @@
 html,
 body {
-
   font-family: Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-size: 14pt
 }
 
 * {
@@ -19,25 +14,53 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 20pt;
+  margin: 0;
+  padding: 10px;
 }
 
-main{
+main {
   margin-left: 5%;
 }
 
-li {
-  list-style: none;
+footer {
+  text-align: center;
+  border-top: 2px solid grey;
+  padding-top: 10px;
 }
 
-p {
-  font-size: 14pt;
+footer nav a {
+  margin: 1%;
+}
+
+header a,
+footer nav a,
+#postsList li a {
+  color: inherit;
+  text-decoration: none;
 }
 
 code {
-  background: darkgray;
+  background: #011627;
   color: white;
 }
 
 .italic {
   font-style: italic;
+}
+
+.title {
+  font-size: 28pt;
+}
+
+.description {
+  font-weight: normal;
+  font-style: italic;
+}
+
+#postsList ul {
+  padding-left: 0
+}
+
+#postsList li {
+  list-style: none;
 }

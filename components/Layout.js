@@ -26,7 +26,8 @@ function Layout({ children, pageTitle }) {
               <Icon icon={linkedinIcon} />
             </a>
           </nav>
-          All content copyright me
+          <a href="https://jamescalingo.dev">My portfolio</a>
+         <p>All content © James Calingo</p>
           </footer>
       </div>
     </>
