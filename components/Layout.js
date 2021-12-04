@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/Link"
+import Link from "next/link"
 import { Icon } from "@iconify/react";
 import githubIcon from "@iconify/icons-simple-icons/github";
 import linkedinIcon from "@iconify/icons-simple-icons/linkedin";
