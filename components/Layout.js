@@ -14,7 +14,7 @@ function Layout({ children, pageTitle }) {
       </Head>
       <div>
         <header>
-          <Link href="/">Overclocked Overthoughts</Link>
+          <Link href="/">James Calingo</Link>
         </header>
         <main>{children}</main>
         <footer>

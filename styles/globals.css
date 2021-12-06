@@ -63,4 +63,7 @@ code {
 
 #postsList li {
   list-style: none;
+  line-height: 5pt;
+  border-bottom: 2px dashed black
 }
+

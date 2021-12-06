@@ -7,7 +7,7 @@ const Index = ({ posts }) => {
   return (
     <Layout pageTitle="Overclocked Overthoughts">
       <div className="mainPage">
-      <h1>James Calingo</h1>
+      <h1>OVERCLOCKED OVERTHOUGHTS</h1>
       <p>My thoughts, out loud.</p>
       </div>
       <PostsList posts={posts} />

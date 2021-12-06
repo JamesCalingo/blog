@@ -3,7 +3,7 @@
 title: "Hello World...Again!"
 description: "Where I introduce something I've already introduced in the past."
 date: 6 December 2021
-published: false
+published: true
 
 ---
 
@@ -27,7 +27,7 @@ Then, I moved on to WordPress, using that for several years through college and 
 
 My last blog, which features a grand total of twelve posts, was the first time I had tried making my own blog using my own coding skills.
 
-Here’s the thing, though: it was essentially a copy of something else. I found it when trying to find a “tutorial” for making a blog, and while it was nice having more control over the whole thing, I’ve always wanted to try building the entire thing on my own.
+Here’s the thing, though: it was essentially a copy of something else. I found it when trying to find a “tutorial” for making a blog, and while it was nice having more control over the whole thing, I’ve always wanted to try building the entire thing on my own. There's also another reason that I wanted to do this, but it's a bit weird: that blog was forked from something, and for whatever reason, whenever it updated, the updates were not reflected on my GitHub.
 
 …And that’s where this site comes in. It’s something I’ve built from the ground up.
 
