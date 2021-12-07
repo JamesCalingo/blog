@@ -1,6 +1,6 @@
 import Layout from "../components/Layout"
 
-function Archive()
+function Archive(){
 return(
   <Layout pageTitle="Older Blog Archives">
     <article>
@@ -9,3 +9,4 @@ return(
     </article>
   </Layout>
 )
+}
