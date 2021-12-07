@@ -10,3 +10,5 @@ return(
   </Layout>
 )
 }
+
+export default Archive
