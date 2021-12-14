@@ -17,7 +17,6 @@ const Index = ({ posts }) => {
 
 const PostsList = ({ posts }) => {
   if (!posts || !posts.length) return <p>Nothing to see here...</p>;
-  console.log(posts)
 
   return (
     <div id="postsList">
