@@ -4,10 +4,6 @@ body {
   font-size: 14pt
 }
 
-* {
-  box-sizing: border-box;
-}
-
 header {
   background: green;
   color: white;
@@ -44,6 +40,27 @@ code {
   color: white;
 }
 
+.main_page {
+  text-align: center;
+}
+
+#title {
+  font-size: 30pt;
+  margin: 0;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 600;
+}
+
+#blog_title {
+  font-style: italic;
+  font-size: 74pt;
+  margin: 0;
+}
+
+#blog_tag {
+  margin: 0;
+}
+
 .italic {
   font-style: italic;
 }
@@ -63,7 +80,5 @@ code {
 
 #postsList li {
   list-style: none;
-  line-height: 5pt;
   border-bottom: 2px dashed black
 }
-

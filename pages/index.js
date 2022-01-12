@@ -6,9 +6,11 @@ import Link from "next/link";
 const Index = ({ posts }) => {
   return (
     <Layout pageTitle="Overclocked Overthoughts">
-      <div className="mainPage">
-      <h1>OVERCLOCKED OVERTHOUGHTS</h1>
-      <p>My thoughts, out loud.</p>
+      <div className="main_page">
+        <div id="title">
+          <h1 id="blog_title">Overclocked Overthoughts</h1>
+          <p id="blog_tag">My thoughts, out loud.</p>
+        </div>
       </div>
       <PostsList posts={posts} />
     </Layout>
@@ -22,23 +24,23 @@ const PostsList = ({ posts }) => {
     <div id="postsList">
       <ul>
         {posts
-        .filter(post => post.frontmatter.published === true)
-        .map((post) => {
-          const { frontmatter, slug } = post;
-          const { description, date, title } = frontmatter;
+          .filter((post) => post.frontmatter.published === true)
+          .map((post) => {
+            const { frontmatter, slug } = post;
+            const { description, date, title } = frontmatter;
 
-          return (
-            <li key={slug}>
-              <Link href={`/blog/${slug}`}>
-                <a href="">
-                  <h2>{title}</h2>
-                  <p>{description}</p>
-                  <p className="italic">{date}</p>
-                </a>
-              </Link>
-            </li>
-          );
-        })}
+            return (
+              <li key={slug}>
+                <Link href={`/blog/${slug}`}>
+                  <a href="">
+                    <h2>{title}</h2>
+                    <p>{description}</p>
+                    <p className="italic">{date}</p>
+                  </a>
+                </Link>
+              </li>
+            );
+          })}
       </ul>
     </div>
   );
