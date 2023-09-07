@@ -3,7 +3,7 @@
 title: "September's First"
 description: "The first of what should be weekly updates"
 date: 6 September 2023
-published: false
+published: true
 
 ---
 
