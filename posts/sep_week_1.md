@@ -1,0 +1,24 @@
+---
+
+title: "September's First"
+description: "The first of what should be weekly updates"
+date: 6 September 2023
+published: false
+
+---
+
+One of the biggest challenges about blogging: coming up with ideas for content. However, I figure that since I'm currently in job hunting mode, I'd discuss this:
+
+What was I going to do with this blog?
+
+I do have a TON of drafts saved in my Notes app (and on Google Docs), but in my attempt to "tell the harsh truths" about trying to get a job in the software market, I ponder if some of my thoughts may have been too harsh.
+
+Yes, there's a lot of Chicken Little-ism amongst students of both bootcamps and colleges right now - layoffs, downsizings, AI, and the ever-looming spectre that is the economy make it feel like "getting in" is impossible now. I'd argue that the reality is that getting in is more difficult than most people seem to anticipate, but it is possible.
+
+...Unfortunately, the sheer volume of prospective candidates has shifted the goalpoasts quite far back. Realistically, there's no easy way to solve this, and the potential "solutions" for this could easily be (and, in some cases, have been) harmful to those currently in the industry.
+
+However, we're in September, and traditionally, hiring picks up for a little bit, so now is an opportune time for job seeking (which is what I'm currently doing).
+
+Anyway, back to the original question: this blog.
+
+I'm pretty sure it's largely going to be "variety" content. Sometimes it'll be thoughts on the tech industry, sometimes it'll be stuff I've learned so I can make sure I actually know what's going on, and other times it'll be completely random. In any case, I hope it'll be employable...I mean enjoyable (why did I do that). 
