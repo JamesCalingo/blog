@@ -25,6 +25,7 @@ const PostsList = ({ posts }) => {
       <ul>
         {posts
           .filter((post) => post.frontmatter.published === true)
+          .reverse()
           .map((post) => {
             const { frontmatter, slug } = post;
             const { description, date, title } = frontmatter;
