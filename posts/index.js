@@ -13,7 +13,7 @@ export const posts = () =>
         console.log(new Date(frontmatter.date))
         return { frontmatter, body, slug };
       })
-      .reverse()
+      // .reverse()
       // .sort((post1, post2) => {
       //   new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date);
       // });
