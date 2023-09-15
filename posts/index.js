@@ -13,10 +13,9 @@ export const posts = () =>
         console.log(new Date(frontmatter.date))
         return { frontmatter, body, slug };
       })
-      .reverse()
-      // .sort((post1, post2) => {
-      //   new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date);
-      // });
+      .sort((post1, post2) => {
+        new Date(post2.frontmatter.date) - new Date(post1.frontmatter.date);
+      });
   })(require.context("./", true, /\.md$/));
   
 export const postSlugs = () =>
