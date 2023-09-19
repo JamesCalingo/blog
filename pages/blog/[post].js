@@ -12,7 +12,7 @@ function Post({ frontmatter, body }) {
         <article>
           <h1 className="title">{frontmatter.title}</h1>
           <h2 className="description">{frontmatter.description}</h2>
-          <p className="italic">{frontmatter.date}</p>
+          <p className="italic">{new Date(frontmatter.date).toLocaleDateString()}</p>
           <ReactMarkdown>{body}</ReactMarkdown>
         </article>
       </div>

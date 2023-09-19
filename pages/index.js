@@ -36,7 +36,7 @@ const PostsList = ({ posts }) => {
                   <a href="">
                     <h2>{title}</h2>
                     <p>{description}</p>
-                    <p className="italic">{date}</p>
+                    <p className="italic">{new Date(date).toLocaleDateString()}</p>
                   </a>
                 </Link>
               </li>
