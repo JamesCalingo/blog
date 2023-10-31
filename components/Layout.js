@@ -19,7 +19,7 @@ function Layout({ children, pageTitle }) {
         </header>
         <main>{children}</main>
         <footer>
-          <a href="https://jamescalingo.dev/#about">About me</a>
+          {/* <a href="https://jamescalingo.dev/#about">About me</a> */}
           <nav>
             <a href="https://github.com/JamesCalingo">
               <Icon icon={githubIcon} />
