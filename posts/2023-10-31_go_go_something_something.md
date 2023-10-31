@@ -1,7 +1,7 @@
 ---
 
 title: "Go Go...Something Something"
-description: "Go"
+description: "Or how to be a Go getter"
 date: 31 October 2023
 published: true
 
@@ -70,3 +70,5 @@ Notably, Go does something interesting where multiple inputs separated by whites
 Finally, there’s one other thing I’m still trying to figure out: protecting against guessing a letter that’s already been guessed - I have this in other versions but am still trying to get it to work in Go. If you know how to do this (or see something important that I missed in this version), let me know!
 
 Anyway, that's been quite a bit, but I hope it gives some insight on how learning how to code works.
+
+(Also, yes I know I'm publishing this on Halloween)
