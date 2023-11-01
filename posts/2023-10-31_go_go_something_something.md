@@ -11,7 +11,7 @@ In my never ending quest to learn as many of the things as I can (within reason)
 
 This time, I decided to do something I’d been meaning to do for a while: a simple game.
 
-The “Psychic game”, as I call it, is one of the first “real” programming things I did in a coding bootcamp back in the day. The idea is that a letter is randomly selected from the alphabet, and the player has to guess which letter. You can check out my original (HTML/JavaScript) version [here] (https://jamescalingo.dev/PsychicGame/), complete with probably-inspired-by-Chandler-Bing pithy comments that are probably not necessary at all (RIP Matthew Perry).
+The “Psychic game”, as I call it, is one of the first “real” programming things I did in a coding bootcamp back in the day. The idea is that a letter is randomly selected from the alphabet, and the player has to guess which letter. You can check out my original (HTML/JavaScript) version [here](https://jamescalingo.dev/PsychicGame), complete with probably-inspired-by-Chandler-Bing pithy comments that are probably not necessary at all (RIP Matthew Perry).
 
 Many moons ago, I did a Python version of it inspired by something I saw on LinkedIn. After I finished that, I even attempted to do a version in Rust using the Rust book’s tutorial for a number game (I haven’t gotten it past that point, however, because Rust is not a great beginners language). However, there’s one language that I’d been meaning to check out that I hadn’t yet: Go.
 
