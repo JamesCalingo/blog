@@ -5,7 +5,8 @@ import CodeBlock from '../../components/CodeBlock'
 
 function Post({ frontmatter, body }) {
   if (!frontmatter) return <>
-  <h1>POST NOT FOUND</h1></>;
+  <h1>POST NOT FOUND</h1>
+  </>;
 
   return (
     <Layout pageTitle={frontmatter.title}>

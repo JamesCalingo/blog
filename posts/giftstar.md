@@ -2,7 +2,7 @@
 
 title: "Giftstar"
 description: "An Explanation of a 404"
-date: 1 January 1970
+date: 1 September 2023
 published: false
 
 ---

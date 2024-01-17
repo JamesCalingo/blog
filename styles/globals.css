@@ -12,6 +12,7 @@ header {
   font-size: 20pt;
   margin: 0;
   padding: 10px;
+  width: 100%;
 }
 
 main {
@@ -81,4 +82,13 @@ code {
 #postsList li {
   list-style: none;
   border-bottom: 2px dashed black
+}
+
+@media only screen and (max-width: 1000px) {
+#blog_title {
+  font-size: 48pt;
+}
+#blog_tag {
+  font-size: 24pt;
+}
 }
