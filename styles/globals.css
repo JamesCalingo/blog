@@ -36,9 +36,14 @@ footer nav a,
   text-decoration: none;
 }
 
-code {
+code, pre {
   background: #011627;
   color: white;
+}
+
+pre {
+  padding: 10px;
+
 }
 
 .main_page {
