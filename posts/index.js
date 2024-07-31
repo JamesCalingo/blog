@@ -10,7 +10,6 @@ export const posts = () =>
         const slug = key.replace(/^.*[\\\/]/, "").slice(0, -3);
         const document = documents[index];
         const { data: frontmatter, content: body } = matter(document.default);
-        console.log(new Date(frontmatter.date))
         return { frontmatter, body, slug };
       })
       .sort((post1, post2) => {
