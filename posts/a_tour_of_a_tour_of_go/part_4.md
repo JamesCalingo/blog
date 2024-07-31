@@ -115,11 +115,11 @@ _Stringer_ is an interface within the `fmt` package (i.e. one of the most standa
 
 ### Errors
 
-One of the most common error handling processes in Go is to check that the error is not `nil`.
+One of the most common error handling processes in Go is to check that the error is not `nil`. For example, `http.ListenAndServe` is common in creating and running web servers, but if you read its documentation, you may be surprised to find that it returns an `error`. 
 
 ### Readers
 
-Readers is from the `io` package (input/output). It 
+_Readers_ is from the `io` package (input/output). A Reader is
 
 ### Images
 

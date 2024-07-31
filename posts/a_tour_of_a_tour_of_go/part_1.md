@@ -57,7 +57,7 @@ Import (
 )
 ```
 
-There is one other important thing to consider: In Go, things exported from other packages to where we’re calling them are capitalized (or, in technical terms, PascalCase). For example, if we wanted pi from Go’s `math` package, the way to import it is as `math.Pi` (as opposed to something like JavaScript’s `Math.PI`; if you’re wondering why “PI” is in all caps I think I know why but I’ll explain later).
+There is one other important thing to consider: In Go, things exported to or from other packages are capitalized (or, in technical terms, PascalCase). For example, if we wanted pi from Go’s `math` package, the way to import it is as `math.Pi` (as opposed to something like JavaScript’s `Math.PI`; if you’re wondering why “PI” is in all caps I think I know why but I’ll explain later).
 
 ### Functions
 
@@ -141,11 +141,11 @@ Go infers types for variables based on the values if no type is given.
 
 ### Constants
 
-Much like ECMAScript 6 (i.e. ES6; it’s basically the forerunner of current day JavaScript), you can declare constants using the `const` keyword. Note that in order to declare a constant, you MUST go the keyword route; you can’t declare constants with `:=`. Part of this is probably because, in practice, constants are declared outside of functions (where `:=` is totally unavailable).
+Much like ECMAScript 6 (i.e. ES6; it’s basically the forerunner of current day JavaScript), you can declare constants using the `const` keyword. Note that in order to declare a constant, you MUST go the keyword route; you can’t declare constants with `:=`. Part of this is probably because, in practice, constants are more often declared outside of functions (where `:=` is totally unavailable).
 
 There’s also Numeric constants, which I’m not sure of their use, but apparently they are higher precision values (i.e. bigger than the standard `int` range).
 
-Also, it seems that by convention, constants are PascalCase similar to exports. Remember when I mentioned the fact that JavaScript had `math.PI` as opposed to something like `math.pi`? I believe that is because JavaScript did not have the `const` keyword until ES6; before then, if you needed to declare a value you wanted to make sure your fellow devs knew should remain constant, you named it in all caps (I assume; I wasn't doing computer programming in those days, but I've heard about pre-ES6 conventions).
+Also, as a side note, remember when I mentioned the fact that JavaScript had `math.PI` as opposed to something like `math.pi`? I believe that is because JavaScript did not have the `const` keyword until ES6; before then, if you needed to declare a value you wanted to make sure your fellow devs knew should remain constant, you named it in all caps (I assume; I wasn't doing computer programming in those days, but I've heard about pre-ES6 conventions). Notably, I believe Python currently still uses this convention as it doesn't use keywords to declare variables.
 
 ***
 
