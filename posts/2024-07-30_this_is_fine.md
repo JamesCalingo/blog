@@ -9,13 +9,11 @@ published: true
 
 Today, we’re going to dive into the tech industry.
 
-By now, you probably don't need me - a so-called "software developer" who's seemingly on the verge of a second career change in less than six years - to tell you things aren't so hot right now. You've probably seen the headlines of how tech companies are laying off people left and right - I can't even begin to li
+By now, you probably don't need me - a so-called "software developer" who's seemingly on the verge of a second career change in less than six years - to tell you things aren't so hot right now. You've probably seen the headlines of how tech companies are laying off people left and right - I can't even begin to list off the companies that had layoffs in the past few years. Meanwhile, companies like Alphabet (Google and YouTube), Meta (Facebook and Instagram), Microsoft, and Amazon are still raking in money - which makes it a little weird that they're saying stuff like this:
 
-On the surface, you see that jobs are scarce, positions are getting more applicants than they can handle, and the topic I'd like to shine a lens on: the fact that the entry level market is getting brutalized by people with two or more years of professional experience (keyword is more).
+(Youtube link)
 
-The U.S. Bureau of statistics data show that x happened. Meanwhile, companies like Alphabet (Google and YouTube), Meta (Facebook and Instagram), and Amazon are still raking in money - which makes it a little weird that 
-
-So tonight, let's take a look at how the tech industry has been faring for the last few years, 
+So tonight, let's take a look at how the tech industry has been faring for the last few years - how it got so big, why there's so much chaos now, and what the future may look like ()
 
 ## That O'Jays song ruined by one of Mark Burnett's business partners
 
@@ -37,9 +35,9 @@ However, said pandemic also exposed an uglier truth: CEOs don't like not having 
 
 Now before we continue, I need to make one quick note: this is not the first time this has happened.
 
-Around the turn of the millennium, there was an 
+Around the turn of the millennium, there was a massive market crash in tech which became known as the "dot-com burst". What 
 
-Of course, these types of 
+Of course, these types of things happen.
 
 ## Gotta go back, back to the past
 
@@ -94,7 +92,13 @@ I am a collector of baseball hats. In the past, the company that makes the hats 
 
 I don't remember when exactly it happened, but the company announced that production of many of the hats would be moving overseas. This outraged other collectors similar to myself, and when we got the "new" hats, we found out that they were, as expected, not as good as the old ones (case in point: you can have two hats of the same size and they wouln't fit consistently).
 
-Tech companies have done something similar with their software teams, and while it hasn't been 100% "great", a number of companies have found ways to make it work. There are a number of reasons for companies to (try to) outsource their software teams, but one of the big ones is money. For example, one of the "most popular" countries for software outsourcing is India, where for a lot of people, even the lowest of U.S. salaries is a MASSIVE boon for them. 
+I mentioned the rise of remote work as a pandemic era , and from the looks of things, American CEOs have taken two sides on it: they either hate it and wish they could have all their , or they've leaned heavily into remote - in a different way than you'd expect.
+
+A number of American tech companies have chosen to at least partially move their software departments overseas, and while it hasn't been 100% "great", a number of companies have found ways to make it work. There are a number of reasons for companies to (try to) outsource their software teams, but easily the biggest one is money.
+
+Think back to that distribution of software jobs and salaries. Many software jobs in the U.S. are concentrated in some of the most expensive 
+
+For example, one of the "most popular" countries for software outsourcing is India, where for a lot of people, even the lowest of U.S. salaries is a MASSIVE boon for them. 
 
 The first company I worked for in tech more or less did this; I was in the 
 
@@ -126,4 +130,4 @@ The
 
 They say that in order to make more as a developer, you have to job hop. 
 
-There's tons of stories out there of people who were let go for 
+There's tons of stories out there of people who left a job for one reason or another, tried to find another one, but had to settle for being paid LESS than their old job.
