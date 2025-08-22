@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Link from "next/link"
 import { Icon } from "@iconify/react";
-import githubIcon from "@iconify/icons-simple-icons/github";
-import linkedinIcon from "@iconify/icons-simple-icons/linkedin";
-import twitterIcon from "@iconify/icons-simple-icons/twitter";
 
 function Layout({ children, pageTitle }) {
   return (
@@ -19,18 +16,28 @@ function Layout({ children, pageTitle }) {
         </header>
         <main>{children}</main>
         <footer>
-          {/* <a href="https://jamescalingo.dev/#about">About me</a> */}
+
           <nav>
-            <a href="https://github.com/JamesCalingo">
-              <Icon icon={githubIcon} />
-            </a>
-            <a href="https://linkedin.com/in/james-calingo">
-              <Icon icon={linkedinIcon} />
-            </a>
+            {pageTitle !== "About me" && <Link href="/about">About me</Link>}
+            <Link href="https://jamescalingo.dev" target="blank">
+              My portfolio
+            </Link>
+            <Link href="https://sportventures.netlify.app" passHref target="blank">
+            Sportventures - my sports blog
+            </Link>
+            <Link href="https://github.com/JamesCalingo" passHref target="blank">
+              <Icon icon={"logos:github-icon"} />
+            </Link>
+            <Link href="https://linkedin.com/in/james-calingo" passHref target="blank">
+              <Icon icon={"logos:linkedin-icon"} />
+            </Link>
+            <Link href="https://jamescalingo.cool" passHref target="blank">
+              <Icon icon={"logos:bluesky"} />
+            </Link>
           </nav>
-          <a href="https://jamescalingo.dev">My portfolio</a>
-         <p>All content © James Calingo</p>
-          </footer>
+
+          <p>All content © James Calingo</p>
+        </footer>
       </div>
     </>
   );

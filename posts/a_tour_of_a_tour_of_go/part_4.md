@@ -1,7 +1,7 @@
 ---
 
 title: "Tour de Go Part 4"
-description: "Methods and Interfaces"
+subtitle: "Methods and Interfaces"
 date: 11 January 2024
 published: false
 

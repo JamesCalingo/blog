@@ -1,9 +1,9 @@
 ---
 
 title: "The tech industry in 2024"
-description: "WHEEE!"
+subtitle: "WHEEE!"
 date: 30 July 2024
-published: true
+published: false
 
 ---
 

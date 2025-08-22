@@ -1,7 +1,7 @@
 ---
 
 title: "Go Go...Something Something"
-description: "Or how to be a Go getter"
+subtitle: "Or how to be a Go getter"
 date: 31 October 2023
 published: true
 
@@ -37,19 +37,21 @@ The last few things you need for this are, like the number randomizer, generally
 
 However, there’s one thing I forgot to mention in the last section that we need to consider: whether or not we want the player to have infinite guesses. My original version of this game had a 10-guess limit which I’ve carried to subsequent versions, but in writing this post I’ve realized that maybe a 5/13 chance of “winning” isn’t so great. If we are going to use a guess limit, though, it’s important to remember that numbers can go negative, so we need to make sure the game stops once the player hits 0 chances left.
 
-In any case, most programming languages use something called a “while loop” to facilitate this, but in doing this project, I found out that the “while” keyword doesn’t exist in Go! Instead, Go uses the “for” keyword and you can simply put your condition in (i.e. our guess limit in the form of guesses > 0).
+In any case, most programming languages use something called a <code>while</code> loop to facilitate this, but in doing this project, I found out that the <code>while</code> keyword doesn’t exist in Go! Instead, Go uses the <code>for</code> keyword and you can simply put your condition in (i.e. our guess limit in the form of <code>guesses > 0</code>).
 
-However, if we tried running this, once the player either wins or loses, the program doesn’t actually stop running! This leads to something that’s we need to stop our loop: the break keyword. This tells the program to get out of the loop after whatever is before it in its code block is executed. For our purposes, this is how we’re going to end the game when the player either wins (guesses the correct letter) or loses (runs out of guesses).
+However, if we tried running this, once the player either wins or loses, the program doesn’t actually stop running! This leads to something that’s we need to stop our loop: the <code>break</code> keyword. This tells the program to get out of the loop after whatever is before it in its code block is executed. For our purposes, this is how we’re going to end the game when the player either wins (guesses the correct letter) or loses (runs out of guesses).
 
-So we have our pieces, and through loops and if statements, have at least some of our logic down. However, I’d like to go a bit further.
+So we have our pieces, and through loops and <code>if</code> statements, have at least some of our logic down. However, I’d like to go a bit further.
 
 **STEP 3: “Idiotproofing”**
 
 This is something I feel like a lot of newer programmers would potentially overlook, but I think it’s important: some people are either going to not understand your game at all, or try REALLY HARD to break it because why not. Therefore, I like to try to “safeguard” the game by checking if something potentially gamebreaking happens and being ready for it. Here are a few of the ways a player could end up going outside the intentions of the game:
 
-A. Putting in a number or symbol like 9, +, or even ñ. Personally, I’d rather not penalize the player for guessing the number 0 instead of the letter O.
+1. Putting in a number or symbol like 9, +, or even ñ.
 
-B. Putting in a capital or lower case letter when expecting the other.
+Personally, I’d rather not penalize the player for guessing the number 0 instead of the letter O.
+
+2. Putting in a capital or lower case letter when expecting the other.
 
 For those of you learning coding, upper case and lower case letters are considered completely different things in just about every programming language due to something known as The Unicode Standard (imagine an echoey voice saying that). This standard provides unique identifiers for characters in different languages (i.e. things like accents typically found in Spanish or French but not English), but also provides identifiers for other characters such as [the logo of that website whose owner wants you to forget used to be Twitter](https://www.compart.com/en/unicode/U+1D54F).
 
@@ -57,7 +59,7 @@ Upper and lower case letters have their own Unicode identifiers, and since the g
 
 To “get around” this, many languages have methods that change the case of letters in a string (i.e. a "to*Other*Case" method). 
 
-C. Putting in more than one character.
+3. Putting in more than one character.
 
 We’re expecting only one letter as an answer, so we should account for if the player “fat fingers” an answer (like “we”), or worse, tries to somehow cheat by doing something like trying to guess “thequickbrownfoxjumpedoverthelazydog” since the answer’s gotta be in there somewhere, right?
 

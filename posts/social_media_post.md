@@ -1,7 +1,7 @@
 ---
 
 title: "About social media"
-description: ""
+subtitle: ""
 date: 
 published: false
 

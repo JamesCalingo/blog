@@ -1,7 +1,7 @@
 ---
 
 title: "Tour de Go Part 6"
-description: "Concurrent Programming"
+subtitle: "Concurrent Programming"
 date: 11 January 2024
 published: false
 
@@ -29,4 +29,6 @@ Goroutines are, from what I can tell, the simplest form of asynchronous programm
 
 ### Channels
 
-Channels are 
+Channels are connected to goroutines. A channel, by definition, is
+
+The common way this works is that you have a variable - for simplicty's sake, we'll use the good ol' string "Hello, World" (and not "wrold" like I almost typed in when typing this). 

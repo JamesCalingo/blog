@@ -1,7 +1,7 @@
 ---
 
 title: "Tour de Go Part 5"
-description: "Generics"
+subtitle: "Generics"
 date: 11 January 2024
 published: false
 
