@@ -1,7 +1,7 @@
 ---
 
 title: "Tour de Go Part 3"
-description: "The Basics: Part 3"
+subtitle: "The Basics: Part 3"
 date: 11 January 2024
 published: false
 

@@ -25,6 +25,12 @@ footer {
   padding-top: 10px;
 }
 
+article {
+  width: 90%;
+  margin-left: 0;
+  /* line-height: 1.5; */
+}
+
 footer nav a {
   margin: 1%;
 }

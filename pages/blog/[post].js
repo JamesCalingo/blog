@@ -1,7 +1,10 @@
-import ReactMarkdown from "react-markdown";
+import Markdown from "react-markdown";
 import { postSlugs, postForSlug } from "../../posts";
 import Layout from "../../components/Layout";
 import CodeBlock from '../../components/CodeBlock'
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
 
 function Post({ frontmatter, body }) {
   if (!frontmatter) return <>
@@ -13,9 +16,9 @@ function Post({ frontmatter, body }) {
       <div>
         <article>
           <h1 className="title">{frontmatter.title}</h1>
-          <h2 className="description">{frontmatter.description}</h2>
+          <h2 className="description">{frontmatter.subtitle}</h2>
           <p className="italic">{frontmatter.date ? new Date(frontmatter.date).toLocaleDateString() : ""}</p>
-          <ReactMarkdown>{body}</ReactMarkdown>
+       <Markdown rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkGfm, remarkRehype]}>{body}</Markdown>
         </article>
       </div>
     </Layout>

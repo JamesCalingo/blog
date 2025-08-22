@@ -28,16 +28,14 @@ const PostsList = ({ posts }) => {
           .reverse()
           .map((post) => {
             const { frontmatter, slug } = post;
-            const { description, date, title } = frontmatter;
+            const { subtitle, date, title } = frontmatter;
 
             return (
               <li key={slug}>
-                <Link href={`/blog/${slug}`}>
-                  <a href="">
+                <Link passHref href={`/blog/${slug}`}>
                     <h2>{title}</h2>
-                    <p>{description}</p>
+                    <p>{subtitle}</p>
                     <p className="italic">{new Date(date).toLocaleDateString()}</p>
-                  </a>
                 </Link>
               </li>
             );

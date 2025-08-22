@@ -1,7 +1,7 @@
 ---
 
 title: "A Christmas Catastrophe"
-description: "description"
+subtitle: "description"
 date: 1 January 1970
 published: false
 
