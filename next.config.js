@@ -1,6 +1,6 @@
 const nextConfig = {
   // target: "serverless",
-
+output: 'export',
   webpack: function (config) {
     config.module.rules.push({
       test: /\.md$/,
