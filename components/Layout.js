@@ -18,13 +18,16 @@ function Layout({ children, pageTitle }) {
         <footer>
 
           <nav>
-            {pageTitle !== "About me" && <Link href="/about">About me</Link>}
+            {pageTitle !== "About me" && <><Link href="/about">About me</Link> | </>}
             <Link href="https://jamescalingo.dev" target="blank">
               My portfolio
             </Link>
+            |
             <Link href="https://sportventures.netlify.app" passHref target="blank">
-            Sportventures - my sports blog
+              My sports blog
             </Link>
+            <div className="icons">
+
             <Link href="https://github.com/JamesCalingo" passHref target="blank">
               <Icon icon={"logos:github-icon"} />
             </Link>
@@ -34,6 +37,7 @@ function Layout({ children, pageTitle }) {
             <Link href="https://jamescalingo.cool" passHref target="blank">
               <Icon icon={"logos:bluesky"} />
             </Link>
+            </div>
           </nav>
 
           <p>All content © James Calingo</p>
