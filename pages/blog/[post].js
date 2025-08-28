@@ -13,7 +13,7 @@ function Post({ frontmatter, body }) {
   </>;
 
   return (
-    <Layout pageTitle={frontmatter.title}>
+    <Layout pageTitle={`${frontmatter.title} - Overclocked Overthoughts`}>
       <div>
         <article>
           <h1 className="title">{frontmatter.title}</h1>

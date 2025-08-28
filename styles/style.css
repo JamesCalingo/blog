@@ -16,7 +16,7 @@ header {
 }
 
 main {
-  margin-left: 5%;
+  margin: 0 5%;
 }
 
 footer {
@@ -90,6 +90,10 @@ pre {
 .description {
   font-weight: normal;
   font-style: italic;
+}
+
+.centered {
+  text-align: center;
 }
 
 #postsList ul {
