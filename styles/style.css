@@ -16,7 +16,7 @@ header {
 }
 
 main {
-  margin-left: 5%;
+  margin: 0 5%;
 }
 
 footer {
@@ -26,7 +26,7 @@ footer {
 }
 
 article {
-  width: 90%;
+  /* width: 90%; */
   margin-left: 0;
   /* line-height: 1.5; */
 }
@@ -40,6 +40,12 @@ footer nav a,
 #postsList li a {
   color: inherit;
   text-decoration: none;
+}
+
+.icons {
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 code, pre {
@@ -90,6 +96,10 @@ pre {
   font-style: italic;
 }
 
+.centered {
+  text-align: center;
+}
+
 #postsList ul {
   padding-left: 0
 }
@@ -100,10 +110,25 @@ pre {
 }
 
 @media only screen and (max-width: 1000px) {
-#blog_title {
+article {
+  width: 100%;
+}
+
+  #blog_title {
   font-size: 48pt;
 }
 #blog_tag {
   font-size: 24pt;
 }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    /* display: inline; */
+    font-size: 12pt;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
