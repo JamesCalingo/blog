@@ -73,6 +73,10 @@ pre {
   margin: 0;
 }
 
+#footnote-label {
+  display: none;
+}
+
 .italic {
   font-style: italic;
 }
