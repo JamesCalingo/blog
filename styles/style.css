@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Helvetica Neue, sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 14pt
 }
 
@@ -9,6 +9,7 @@ header {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  font-family:  Helvetica, sans-serif;
   font-size: 20pt;
   margin: 0;
   padding: 10px;
