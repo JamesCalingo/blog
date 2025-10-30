@@ -3,7 +3,9 @@ import { posts } from "../posts";
 import Layout from "../components/Layout";
 import Link from "next/link";
 
-const Index = ({ posts }) => {
+const published = posts().filter((post) => post.frontmatter.published === true).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+
+const Index = () => {
   return (
     <Layout pageTitle="Overclocked Overthoughts">
       <div className="main_page">
@@ -12,7 +14,7 @@ const Index = ({ posts }) => {
           <p id="blog_tag">My thoughts, out loud.</p>
         </div>
       </div>
-      <PostsList posts={posts} />
+      <PostsList posts={published} />
     </Layout>
   );
 };
@@ -25,7 +27,6 @@ const PostsList = ({ posts }) => {
       <ul>
         {posts
           .filter((post) => post.frontmatter.published === true)
-          .reverse()
           .map((post) => {
             const { frontmatter, slug } = post;
             const { subtitle, date, title } = frontmatter;
