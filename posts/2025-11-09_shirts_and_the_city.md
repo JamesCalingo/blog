@@ -1,6 +1,6 @@
 ---
 title: "Shirts and the City"
-subtitle: 'or "James is FORCED to learn self-control"'
+subtitle: 'or "James is FORCED to learn some modicum of self-control"'
 date: 9 November 2025
 published: true
 ---
