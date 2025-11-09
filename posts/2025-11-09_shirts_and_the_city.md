@@ -1,9 +1,10 @@
 ---
+
 title: "Shirts and the City"
 subtitle: 'or "James is FORCED to learn self-control"'
 date: 9 November 2025
-published: true
-pinned: false
+published: false
+
 ---
 
 _I was originally going to post this to my <a href="https://sportventures.netlify.app" target="blank">sports blog</a> as a bit of a "special feature", but ended up deciding to move it here. Consider it a bit of a "cross-post", if you will, and be sure to check out my sports blog, as that seems to be the one I update WAY more often..._
