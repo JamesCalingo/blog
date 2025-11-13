@@ -33,17 +33,17 @@ I ended up getting one shirt from each store - both of them being teams from Eng
   I also considered coming BACK here later in the day to check one thing out, but ultimately decided against doing that as well.
 
 - **From Saturdays Football: <a href="https://www.footballkitarchive.com/blackburn-rovers-2006-07-home-kit/12261/" target="blank">This Blackburn Rovers shirt from 2006</a>**<br>
-  With how things have been going for Blackburn recently (having last been in the Premier League in 2012), it can be easy to forget that they're one of two non-Big Six teams to have won the Premier League (back in 1995)[^6]. They're currently (11/9/25) languishing near the bottom of England's second division, though they JUST missed out on the chance to return to the Premier League (that Sunderland ended up getting) last season. While the contrasting half-and-half design is cool, the front of this one has "pits" which are the same colors as the sleeves, and it makes this one look a bit awkward...
+  With how things have been going for Blackburn recently (having last been in the Premier League in 2012), it can be easy to forget that they're one of two non-Big Six teams to have won the Premier League (back in 1995)[^6]. They're currently (as of the date this is published) languishing near the bottom of England's second division, though they JUST missed out on the chance to return to the Premier League (that Sunderland ended up getting) last season[^7]. While the contrasting half-and-half design is cool, the front of this one has "mesh armpits" which feature "holes" that are rather small (though probably not 4,000 of them), but are the same colors as the <u>sleeves</u>, and it makes this one look a bit awkward...though maybe not as awkward as that reference I tried to shoehorn in.
   
-  I thought about getting an Everton shirt as well, but I didn't like how it "rose up" off of my waist when I lifted my arms (a "modern Umbro" problem I had seen before with a West Ham United shirt one time).
+  I thought about getting an Everton shirt as well, but I didn't like how much it "rose up" off of my waist when I lifted my arms.
   
   Also, I got a free Brooklyn FC sticker since I was wearing their shirt!
 
-There are, of course, A TON MORE vintage stores - and that’s just if you’re talking about New York City! Like I said earlier, I didn’t have anywhere NEAR enough time to explore more (outside of a short visit to a nearby store that didn't have anything I was interested in[^7]), but maybe in the future...
+There are, of course, A TON MORE vintage stores - and that’s just if you’re talking about New York City! Like I said earlier, I didn’t have anywhere NEAR enough time to explore more (outside of a short visit to a nearby store that didn't have anything I was interested in[^8]), but maybe in the future...
 
 Also, thank goodness I realized I (almost) forgot my shirts at the pizza place I ate lunch at almost immediately after leaving it...
 
-(One final note for those who don't understand the divisions mentioned in the shirt descriptions: most countries have all of their soccer/football clubs in a singular "pyramid" which is divided into several divisions, and teams can go up and down the divisions depending on if they play well/poorly season by season.)
+One final note for those who don't understand the divisions mentioned in the shirt descriptions: most countries have all of their soccer/football clubs in a singular "pyramid/ladder structure" which is divided into several divisions, and teams can go up and down the divisions depending on if they play well/poorly season by season. There are calls to bring it to the United States, but it's unlikely certain MLS owners (i.e. the ones with NFL teams) would be willing to have their teams sent to the second (or even third) division...
 
 ---
 
@@ -52,5 +52,6 @@ Also, thank goodness I realized I (almost) forgot my shirts at the pizza place I
 [^3]: I was originally thinking of visiting a third soccer specific store in Times Square that I remembered having vintage shirts (though I think they specialize more in modern stuff), but nixed it for multiple reasons. One of them being Times Square.
 [^4]: I realize that saying I have an affinity for Newcastle United and then buying a Sunderland shirt would likely get me in trouble should I ever visit North East England...
 [^5]: Though that didn't stop me from getting another shirt at the Jersey Gardens Puma store...for a team I can't mention in case one of my oldest friends reads this blog.
-[^6]: The other one was the famous Leicester City squad of 2016.
-[^7]: They did have quite a few baseball jerseys, but many of them had been cut into crop tops.
+[^6]: The other one was the famous Leicester City squad of 2016. 
+[^7]: England's second division is notoriously volitile: there are many teams over the years who have just missed promotion one year only to fall apart the next. 
+[^8]: They did have quite a few baseball jerseys, but many of them had been cut into crop tops.
