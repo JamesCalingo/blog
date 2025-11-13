@@ -7,7 +7,7 @@ published: true
 
 ---
 
-*This is an idea that popped into my head a few days ago when I went to a <a href="https://sportventures.netlify.app/2025-09-14_njtitans" target="blank">hockey game</a>.*
+*This is an idea that popped into my head a few days ago when I went to a <a href="https://sportventures.blog/2025-09-14_njtitans" target="blank">hockey game</a>.*
  
 For a lot of things I do, I feel I have an inner narrative going on in my head. However, this is most especially true for the sports trips I've been writing about this year, as since I write about all of them, it helps me keep ideas organized for when they need to be written down.
  
@@ -27,7 +27,7 @@ When making videos, it takes a lot of time for them to be ready. You have to fir
  
 I realize that this makes me sound a bit lazy, but there's one other thing you have to consider: you can't really work on a vlog until the event happens. With many of my blog posts (and especially some upcoming ones), I actually start them long before they get posted; and while this technically is possible with vlogging, a lot of a vlog can't happen until whatever the vlog is based on actually happens.
 
-For my <a href="https://sportventures.netlify.app" target="blank">sports blog</a>, I begin writing posts when the idea of visiting a team/venue first comes into my head (i.e. LONG before the event is scheduled to occur). In fact, I've already started work on drafting posts for teams I'm thinking of visiting next year who are not currently in season, and even a few teams who have yet to play their first game! Thanks to this “pre-work”, I’m able to have posts on the games I go to uploaded the literal day after they happen, as the only thing left to do is write about *my* experience - something that is much more difficult to do with a travel vlog.
+For my <a href="https://sportventures.blog" target="blank">sports blog</a>, I begin writing posts when the idea of visiting a team/venue first comes into my head (i.e. LONG before the event is scheduled to occur). In fact, I've already started work on drafting posts for teams I'm thinking of visiting next year who are not currently in season, and even a few teams who have yet to play their first game! Thanks to this “pre-work”, I’m able to have posts on the games I go to uploaded the literal day after they happen, as the only thing left to do is write about *my* experience - something that is much more difficult to do with a travel vlog.
  
 There's also another aspect of this that I think is important, even if it is "less than savory": sensitivity.
  

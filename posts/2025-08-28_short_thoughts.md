@@ -7,7 +7,7 @@ published: true
 
 ---
 
-I had a bit of an epiphany last night when discussing <a href="http://sportventures.netlify.app" target="blank">my sports blog</a> with friends:
+I had a bit of an epiphany last night when discussing <a href="http://sportventures.blog" target="blank">my sports blog</a> with friends:
 
 “Your blog is just thoughts put into words.”
 

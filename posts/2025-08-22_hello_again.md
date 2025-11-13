@@ -11,7 +11,7 @@ What's going on everyone?
 
 I realize it's been...a little bit since I last posted on this blog, but I figured now was the time to light the fire again.
 
-For starters: I am job searching. I will admit that part of me returning to this blog is this job search, but also because I felt like I really wanted to give writing another go. In fact, I've actually been writing about the sporting events I've gone to (another hobby of mine), and I actually spun the code of THIS blog into another website entirely! You can read about my sporting adventures at <a href="http://sportventures.netlify.app" target="blank">my sports-focused blog</a>.
+For starters: I am job searching. I will admit that part of me returning to this blog is this job search, but also because I felt like I really wanted to give writing another go. In fact, I've actually been writing about the sporting events I've gone to (another hobby of mine), and I actually spun the code of THIS blog into another website entirely! You can read about my sporting adventures at <a href="http://sportventures.blog" target="blank">my sports-focused blog</a>.
 
 Things have happened in my personal life, however, that have complicated a lot of things. I won't get into deep into it, but long story short: I had to move from Massachusetts back to New Jersey. However, I've realized something important within that:
 
