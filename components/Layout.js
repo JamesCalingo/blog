@@ -26,7 +26,7 @@ function Layout({ children, pageTitle }) {
               My portfolio
             </Link>
             |
-            <Link href="https://sportventures.netlify.app" passHref target="blank">
+            <Link href="https://sportventures.blog" passHref target="blank">
               My sports blog
             </Link>
             <div className="icons">
